@@ -15,7 +15,6 @@ pub fn count(vec: Vec<i32>, val: i32) -> usize {
     count
 }
 
-
 #[test]
 fn test_count_i32() {
     assert_eq!(count(vec![0, 0, 1, 5, 0], 0), 3);
