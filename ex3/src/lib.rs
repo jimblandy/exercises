@@ -61,7 +61,6 @@ fn test_brighten_rgb() {
 #[cfg(skip)]
 #[test]
 fn test_brighten_ycbcr() {
-{
     let color = YCbCr { y: 80, cb: 10, cr: 100 };
     assert!(match brighten(color, 0.) {
         // Any value with a zero luma will do.
